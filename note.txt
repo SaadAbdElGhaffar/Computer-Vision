@@ -1,0 +1,34 @@
+Segmentation algo:
+1-global threshold
+2-adaptive threshold :It is used under different lighting 
+3-Otsu's threshold
+4-k-means
+5-GMM and EM | soft cluster (this used when there are alot of pixels have mix more than one color)
+6-background subtraction
+
+remove the noise and enhacne the image:
+1-blurring
+
+Edge Detection:
+1-laplacian
+2-sobel x
+3-sobel y
+4-canny detection
+5-harris corner detection
+
+Feature Extraction to get important point(pixels):
+1-harris corner detection
+2-Fast corner detection
+3-SIFT 
+4-ORB(Oriented FAST and Rotated BRIEF)
+5-HOG(Histogram of Oriented Gradients)
+6-LBP(Local Binary Pattern)
+
+Matching:
+1-KD-TREES - large dataset
+2-BFMatcher(Brute Force Matcher) - small dataset
+3-FLANNMatcher(Fast Library for Approximate Nearest Neighbors) - large dataset
+this link for explain Matching algo in cv :https://docs.opencv.org/4.5.2/dc/dc3/tutorial_py_matcher.html
+
+
+Feature Extraction----> Matching
